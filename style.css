@@ -1,0 +1,32 @@
+body{
+   
+   
+}
+table{
+    width: 70%;
+    height: 50%;
+    border-collapse: collapse;
+    position: relative;
+    left: 15%;
+    top: 300px;
+   
+}
+.div1{
+    font-size: 35px;
+
+}
+tr{
+    height: 15%;
+    width:20%;
+}
+tr:nth-child(even){
+
+    background-color: lightgrey;
+
+}
+td{
+    border: 1px solid grey;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
