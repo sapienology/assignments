@@ -1,0 +1,31 @@
+.home{
+    background-color: aqua;
+    color: white;
+    font-size: 90px;
+    padding: 20px;
+    display: block;
+}
+.search {
+    background-color: rgb(224, 187, 117);
+    color: white;
+    font-size: 90px;
+    padding: 20px;
+    display: block;
+}
+.logout{
+    background-color: lightgreen;
+    color:white;
+    font-size: 90px;
+    padding: 20px;
+    display: block;
+}
+.Profile{
+    background-color: lightblue;
+    color: white;
+    font-size: 90px;
+    padding: 20px;
+    display: block;
+}
+.container{
+   
+}

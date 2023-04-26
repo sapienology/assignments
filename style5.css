@@ -1,38 +1,212 @@
 body{
-    background-color: rgb(20, 8, 19);
-}
-.div1{
-    background-color: rgb(78, 34, 78);
-    width:1100px;
-    height: 500px;
-    display:flex;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    }
+.div1{
+    width:80%;
+    height: 300px;
+    display:flex;
+    align-items: center;                                                                                                                        
     justify-content: center;
     margin: auto;
-    position: absolute;
-    left:0;
-    right: 0;
-    top:0;
-    bottom: 0;
-    border-radius: 2px;
-
-
+    border-radius: 10px;
 }
-.div2{
-    display: flex;
-
-}
-img{
-    background-color: rgb(156, 3, 156);
-    height: 500px;
-    width: 500px;
-    z-index: -1;
+.overlay{
+    background-color:hsl(277, 64%, 61%,0.5);
+    height: 449px;
+    width: 530px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .p1{
-    font-size: 4+++0px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
 
 }
 
+.section2{
+    background-image: url("/stats-preview-card/stats-preview-card-component-main/images/image-header-desktop.jpg");
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 
+}
+.section1{
+    background-color: hsl(244, 38%, 16%); 
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    padding: 50px;
+    height: 350px;
+    margin-left: 10px;
+    width: 100%;
+}
+#id1{
+    color: purple;
+}
+.p2{
+    line-height: 28px;
+    color:hsla(0, 0%, 100%, 0.6);
+    font-family: Lexend Deca;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif   ;
+    margin-top: -16px;
+}
+
+.span{
+    color: red;
+}
+article{
+    display: flex;
+   
+    
+   
+}
+.div4, .div5{
+    padding-right: 50px;
+    margin-top: 30px;
+}
+.class{
+    font-size: 13px;
+    margin-top: -25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-stretch: extra-expanded;
+    color: hsla(0, 0%, 100%, 0.6);
+    letter-spacing: 03px;
+}
+#id2{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    
+}
+.div6{
+    margin-top: 30px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+body {
+        background-color: hsl(233, 47%, 7%);
+    }
+
+    .div1 {
+        width: 3250px;
+        height: 500px;
+        display: flex;
+        flex-direction:column ;
+        
+    }
+
+    .overlay {
+        background-color: hsl(277, 64%, 61%);
+        height: 200px;
+        width: 200px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .p1 {
+        font-size: 20px;
+        color: hsl(0, 0%, 100%);
+        font-family: Inter;
+        font-weight: 200;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+
+    }
+
+    .section2::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: hsl(277, 98%, 24%);
+        opacity: 50%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .section2 {
+        position: relative;
+        top: px;
+        width: 100%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .section1 {
+        background-color: hsl(244, 38%, 16%);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 10px;
+        height: 150px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    #id1 {
+        color: purple;
+    }
+
+    .p2 {
+        line-height: 11px;
+        color: hsla(0, 0%, 100%, 0.6);
+        font-family: Lexend Deca;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: px;
+    }
+
+    .span {
+        color: red;
+    }
+
+    article {
+        display: flex;
+
+
+
+    }
+
+    .div4,
+    .div5 {
+        padding-right: 10px;
+        margin-top: px;
+    }
+
+    .class {
+        font-size: 10px;
+        margin-top: px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-stretch: extra-expanded;
+        color: hsla(0, 0%, 100%, 0.6);
+        letter-spacing: 01px;
+    }
+
+    #id2 {
+        font-size: 10px;
+        font-weight: 100;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: px;
+
+    }
+
+    .div6 {
+        margin-top: 10px;
+
+    }
+}

@@ -1,0 +1,19 @@
+html ,body{
+    background-color: rgba(226, 226, 129, 0.493);
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.container{
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    align-items:flex-end;
+   
+}
+.container > div{
+    padding: 10px;
+    text-align: center;
+}
